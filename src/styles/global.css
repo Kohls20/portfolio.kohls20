@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    @apply bg-gray-900 text-zinc-100 text-xl;
+}
+
+body ::-webkit-scrollbar {
+    @apply w-3 h-3 mr-3;
+}
+body ::-webkit-scrollbar-corner {
+    @apply border-none bg-none;
+}
+body ::-webkit-scrollbar-thumb {
+    @apply bg-slate-700 rounded-xl cursor-move;
+}
+
+body ::-webkit-scrollbar-track {
+    @apply bg-transparent border-none w-2;
+}
+
+.filhos a {
+    @apply my-4 flex items-center not-italic;
+}
