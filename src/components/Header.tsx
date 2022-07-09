@@ -22,7 +22,7 @@ export function Header() {
 
             <img
                 className="w-72 border rounded-[140px]"
-                src="./src/img/selfie.png"
+                src="https://images2.imgbox.com/7e/27/iiigkQPg_o.png"
                 alt=""
             />
         </div>
